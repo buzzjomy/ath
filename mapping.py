@@ -48,7 +48,7 @@ def readMappingExcel(filename, consider_list):
                 # input('attr1: ' + str(mapping)        )
             if row['attribute2']!="nan":
                 dict_to_update_firelight = {"attribute2": row['attribute2'],
-                "attribute2 data type": row['attribute2 data type'],
+                "attribute2_type": row['attribute2 data type'],
                 "attribute3_list":[]}
                 # get the last item in the attr list
                 attr2_list = mapping['attribute1_list'][-1]['attribute2_list']
@@ -58,7 +58,7 @@ def readMappingExcel(filename, consider_list):
                 # print('----------------------------')
                 # print(row['attribute3'])
                 dict_to_update_firelight = {"attribute3": row['attribute3'],
-                "attribute3 data type": row['attribute3 data type'],
+                "attribute3_type": row['attribute3 data type'],
                 "attribute4_list":[]}
                 # print('----------------------------')
                 # print(dict_to_update_firelight)
@@ -78,7 +78,7 @@ def readMappingExcel(filename, consider_list):
                 # input('attr3: '  + str(mapping)        )  
             if row['attribute4']!="nan":
                 dict_to_update_firelight = {"attribute4": row['attribute4'],
-                "attribute4 data type": row['attribute4 data type']}
+                "attribute4_type": row['attribute4 data type']}
                 # attribute4 = row['attribute4']    
                 attr4_list = mapping
                 ['attribute1_list'][-1]['attribute2_list'][-1]['attribute3_list']\
@@ -91,3 +91,4 @@ def readMappingExcel(filename, consider_list):
                 # input('firelight: '  + str(mapping)        )
                 # input(mapping)
     print(mapping_list)
+    return mapping_list
