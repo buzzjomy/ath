@@ -90,5 +90,5 @@ def readMappingExcel(filename, consider_list):
                 dict_to_update_firelight['FirelightLogic'] = row['Firelight Logic']
                 # input('firelight: '  + str(mapping)        )
                 # input(mapping)
-    print(mapping_list)
+    # print(mapping_list)
     return mapping_list
