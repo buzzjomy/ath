@@ -1,5 +1,7 @@
 import pandas as pd
  
+import logging
+logger = logging.getLogger(__name__)
 
 def readMappingExcel(filename, consider_list):
     # Read an Excel file into a DataFrame
