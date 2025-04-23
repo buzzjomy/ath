@@ -1,0 +1,913 @@
+{
+  "meta_data": {
+    "state_machine_run_count": "0",
+    "rule_id": "01JRFX1NQYYNGTFY30AHXJ3JXB"
+  },
+  "transaction": {
+    "transaction_id": "test-rr4-12345",
+    "transaction_type": "nb_application",
+    "transaction_sub_type": "Annuity",
+    "status": "Processed",
+    "received_timestamp": "2023-10-01T14:30:00Z",
+    "source_system": "Firelight",
+    "source_transaction_id": "ST456789",
+    "source_transaction_timestamp": "2023-10-01T13:00:00Z"
+  },
+  "supporting_documents": [
+    {
+      "item_id": "D001",
+      "document_id": "Doc123",
+      "document_type": "Policy",
+      "document_title": "Annuity Policy Document",
+      "document_date": "2023-10-01"
+    }
+  ],
+  "annuitant": {
+    "item_id": "A001",
+    "backup_withholding_indicator": true,
+    "prefix": "Mr.",
+    "date_of_birth": "1962-06-11",
+    "gender_code": "M",
+    "existing_insurance_indicator": true,
+    "suffix": "",
+    "nra_fee_indicator": false,
+    "nra_indicator": false,
+    "vip_indicator": false,
+    "relationship_to_owner_other_explanation": "",
+    "relationship_to_owner": "Self",
+    "first_name": "Tim",
+    "per_stirpes": "N/A",
+    "address": [
+      {
+        "country": "USA",
+        "seasonal_end_date": "",
+        "address_type": "Residential",
+        "bad_address_indicator": false,
+        "item_id": "ADDR001",
+        "city": "West Des Moines",
+        "seasonal_address_indicator": false,
+        "preferred_address_indicator": true,
+        "seasonal_start_date": "",
+        "preferred_sending_method": "Mail",
+        "postal_drop_code": "",
+        "address_line_1": "123 Main St",
+        "address_line_3": "",
+        "address_line_2": "Apt 101",
+        "state": "IA",
+        "postal_code": "5026699",
+        "address_occupancy_information": {
+          "effective_start_date": "2010-01-01",
+          "effective_end_date": ""
+        }
+      }
+    ],
+    "country_of_citizenship": "USA",
+    "foreign_tax_identifying_number": "",
+    "last_name": "Tebow",
+    "government_issued_photo_id": {
+      "state_or_country_of_issue": "CA",
+      "label": "Driver's License",
+      "other_description": ""
+    },
+    "government_id": "123466789",
+    "middle_name": "A",
+    "is_us_citizen": true,
+    "place_of_birth": "Los Angeles, CA",
+    "scv_id": "SCV_1234",
+    "full_name": "John A Doe",
+    "email_address": [
+      {
+        "item_id": "EMAIL001",
+        "is_valid": "true",
+        "address": "john.doe@example.com"
+      }
+    ],
+    "government_id_certified_indicator": true,
+    "1042s_tax_form_applicable": false,
+    "clause_description": "",
+    "phone_number": [
+      {
+        "item_id": "PHONE001",
+        "phone_type": "Mobile",
+        "dial_number": "1234567890"
+      }
+    ],
+    "tax_form_expiration_date": "2024-05-20",
+    "w8_receipt_date": "",
+    "government_id_type_code": "SSN",
+    "age": "53"
+  },
+  "joint_annuitant": {
+    "item_id": "JA001",
+    "scv_id": "SVC456",
+    "relationship_to_annuitant": "Spouse",
+    "relationship_to_annuitant_other_description": "",
+    "relationship_to_owner": "Spouse",
+    "relationship_to_owner_other_description": "",
+    "first_name": "Jane",
+    "middle_name": "B",
+    "last_name": "Doe",
+    "prefix": "Mrs.",
+    "suffix": "",
+    "full_name": "Jane B Doe",
+    "gender_code": "F",
+    "date_of_birth": "1972-06-15",
+    "age": "51",
+    "government_id": "123474321",
+    "government_id_type_code": "SSN",
+    "government_id_certified_indicator": true,
+    "place_of_birth": "San Francisco, CA",
+    "is_us_citizen": true,
+    "country_of_citizenship": "USA",
+    "w8_receipt_date": "",
+    "tax_form_expiration_date": "2024-06-15",
+    "foreign_tax_identifying_number": "",
+    "1042s_tax_form_applicable": false,
+    "nra_fee_indicator": false,
+    "nra_indicator": false,
+    "backup_withholding_indicator": false,
+    "vip_indicator": false,
+    "per_stirpes": "N/A",
+    "clause_description": "",
+    "existing_insurance_indicator": false,
+    "government_issued_photo_id": {
+      "label": "Driver's License",
+      "other_description": "",
+      "state_or_country_of_issue": "CA"
+    },
+    "address": [
+      {
+        "item_id": "ADDR002",
+        "address_type": "Residential",
+        "address_line_1": "123 Main St",
+        "address_line_2": "Apt 101",
+        "address_line_3": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postal_code": "90001",
+        "country": "USA",
+        "preferred_sending_method": "Email",
+        "postal_drop_code": "",
+        "seasonal_address_indicator": false,
+        "seasonal_start_date": "",
+        "seasonal_end_date": "",
+        "bad_address_indicator": false,
+        "address_occupancy_information": {
+          "effective_start_date": "2010-01-01",
+          "effective_end_date": ""
+        }
+      }
+    ],
+    "email_address": [
+      {
+        "item_id": "EMAIL002",
+        "is_valid": "true",
+        "address": "jane.doe@example.com"
+      }
+    ],
+    "phone_number": [
+      {
+        "item_id": "PHONE002",
+        "phone_type": "Home",
+        "dial_number": "0987654321"
+      }
+    ]
+  },
+  "owner": {
+    "item_id": "O001",
+    "scv_id": "SVC789",
+    "record_type": "Individual",
+    "relationship_to_annuitant": "Self",
+    "relationship_to_annuitant_other_description": "",
+    "first_name": "John",
+    "middle_name": "A",
+    "last_name": "Doe",
+    "prefix": "Mr.",
+    "suffix": "",
+    "full_name": "John A Doe",
+    "gender_code": "M",
+    "date_of_birth": "1970-05-20",
+    "age": "53",
+    "government_id": "123486789",
+    "government_id_type_code": "SSN",
+    "government_id_certified_indicator": true,
+    "place_of_birth": "Los Angeles, CA",
+    "is_us_citizen": true,
+    "country_of_citizenship": "USA",
+    "w8_receipt_date": "",
+    "tax_form_expiration_date": "2024-05-20",
+    "foreign_tax_identifying_number": "",
+    "1042s_tax_form_applicable": false,
+    "nra_fee_indicator": false,
+    "nra_indicator": false,
+    "backup_withholding_indicator": true,
+    "vip_indicator": false,
+    "per_stirpes": "N/A",
+    "clause_description": "",
+    "existing_insurance_indicator": true,
+    "government_issued_photo_id": {
+      "label": "Driver's License",
+      "other_description": "",
+      "state_or_country_of_issue": "CA"
+    },
+    "address": [
+      {
+        "item_id": "ADDR001",
+        "address_type": "Residential",
+        "address_line_1": "123 Main St",
+        "address_line_2": "Apt 101",
+        "address_line_3": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postal_code": "90001",
+        "country": "USA",
+        "preferred_address_indicator": true,
+        "preferred_sending_method": "Mail",
+        "postal_drop_code": "",
+        "seasonal_address_indicator": false,
+        "seasonal_start_date": "",
+        "seasonal_end_date": "",
+        "bad_address_indicator": false,
+        "address_occupancy_information": {
+          "effective_start_date": "2010-01-01",
+          "effective_end_date": ""
+        }
+      }
+    ],
+    "email_address": [
+      {
+        "item_id": "EMAIL001",
+        "is_valid": "true",
+        "address": "john.doe@example.com"
+      }
+    ],
+    "phone_number": [
+      {
+        "item_id": "PHONE001",
+        "phone_type": "Mobile",
+        "dial_number": "1234567890"
+      }
+    ],
+    "trust_type": "Revocable Trust",
+    "trust_established_date": "2015-05-20",
+    "owner_date_of_birth": "1970-05-20",
+    "beneficial_owner": {
+      "beneficial_owner_detail": [
+        {
+          "beneficial_owner_name": "John A Doe",
+          "beneficial_owner_government_id": "123496789",
+          "beneficial_owner_date_of_birth": "1970-05-20",
+          "beneficial_owner_passport": "P123456"
+        }
+      ]
+    },
+    "settlor_or_grantor": {
+      "settlor_or_grantor_detail": [
+        {
+          "settlor_grantor_name": "John A Doe",
+          "settlor_grantor_date_of_birth": "1970-05-20",
+          "settlor_grantor_government_id": "123410789",
+          "living_or_deceased": "Living",
+          "ugma_utma_state": "CA",
+          "custodian_name": "Jane B Doe",
+          "trust_state": "CA",
+          "agent_not_beneficiary_indicator": false
+        }
+      ],
+      "trustee": {
+        "trustee_name": [],
+        "trustee_action": "Manage",
+        "trustee_action_other_explanation": ""
+      }
+    }
+  },
+  "joint_owner": {
+    "item_id": "JO001",
+    "scv_id": "SVC012",
+    "record_type": "Individual",
+    "relationship_to_owner": "Spouse",
+    "relationship_to_owner_other_explanation": "",
+    "relationship_to_annuitant": "Spouse",
+    "relationship_to_annuitant_other_explanation": "",
+    "first_name": "Jane",
+    "middle_name": "B",
+    "last_name": "Doe",
+    "prefix": "Mrs.",
+    "suffix": "",
+    "full_name": "Jane B Doe",
+    "short_name": "Jane Doe",
+    "gender_code": "F",
+    "date_of_birth": "1972-06-15",
+    "age": "51",
+    "government_id": "123411321",
+    "government_id_type_code": "SSN",
+    "government_id_certified_indicator": true,
+    "place_of_birth": "San Francisco, CA",
+    "is_us_citizen": true,
+    "country_of_citizenship": "USA",
+    "w8_receipt_date": "",
+    "tax_form_expiration_date": "2024-06-15",
+    "foreign_tax_identifying_number": "",
+    "1042s_tax_form_applicable": false,
+    "nra_fee_indicator": false,
+    "nra_indicator": false,
+    "backup_withholding_indicator": false,
+    "vip_indicator": false,
+    "per_stirpes": "N/A",
+    "clause_description": "",
+    "existing_insurance_indicator": false,
+    "government_issued_photo_id": {
+      "label": "Driver's License",
+      "other_description": "",
+      "state_or_country_of_issue": "CA"
+    },
+    "address": [
+      {
+        "item_id": "ADDR002",
+        "address_type": "Residential",
+        "address_line_1": "123 Main St",
+        "address_line_2": "Apt 101",
+        "address_line_3": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postal_code": "90001",
+        "country": "USA",
+        "preferred_address_indicator": true,
+        "preferred_sending_method": "Email",
+        "postal_drop_code": "",
+        "seasonal_address_indicator": false,
+        "seasonal_start_date": "",
+        "seasonal_end_date": "",
+        "bad_address_indicator": false,
+        "address_occupancy_information": {
+          "effective_start_date": "2010-01-01",
+          "effective_end_date": ""
+        }
+      }
+    ],
+    "email_address": [
+      {
+        "item_id": "EMAIL002",
+        "is_valid": "true",
+        "address": "jane.doe@example.com"
+      }
+    ],
+    "phone_number": [
+      {
+        "item_id": "PHONE002",
+        "phone_type": "Home",
+        "dial_number": "0987654321"
+      }
+    ],
+    "trust_type": "Revocable Trust",
+    "trust_established_date": "2015-06-15",
+    "owner_date_of_birth": "1972-06-15",
+    "beneficial_owner": {
+      "beneficial_owner_detail": [
+        {
+          "beneficial_owner_name": "Jane B Doe",
+          "beneficial_owner_government_id": "123412321",
+          "beneficial_owner_date_of_birth": "1972-06-15",
+          "beneficial_owner_passport": "P654321"
+        }
+      ]
+    },
+    "settlor_or_grantor": {
+      "settlor_or_grantor_detail": [
+        {
+          "settlor_grantor_name": "Jane B Doe",
+          "settlor_grantor_date_of_birth": "1972-06-15",
+          "settlor_grantor_government_id": "123413321",
+          "living_or_deceased": "Living",
+          "ugma_utma_state": "CA",
+          "custodian_name": "John A Doe",
+          "trust_state": "CA",
+          "agent_not_beneficiary_indicator": false
+        }
+      ],
+      "trustee": {
+        "trusee_name": [],
+        "trustee_action": "Manage",
+        "trustee_action_other_explanation": ""
+      }
+    }
+  },
+  "primary_beneficiary": [
+    {
+      "item_id": "PB001",
+      "scv_id": "SVC345",
+      "record_type": "Individual",
+      "relationship_to_annuitant": "Child",
+      "relationship_to_annuitant_other_explanation": "",
+      "relationship_to_owner": "Child",
+      "relationship_to_owner_other_explanation": "",
+      "beneficiary_percentage": "50",
+      "first_name": "Alice",
+      "middle_name": "C",
+      "last_name": "Doe",
+      "prefix": "Ms.",
+      "suffix": "",
+      "full_name": "Alice C Doe",
+      "gender_code": "F",
+      "date_of_birth": "1995-08-10",
+      "government_id": "123414123",
+      "government_id_type_code": "SSN",
+      "government_id_certified_indicator": true,
+      "place_of_birth": "San Diego, CA",
+      "is_us_citizen": true,
+      "country_of_citizenship": "USA",
+      "w8_receipt_date": "",
+      "tax_form_expiration_date": "2025-08-10",
+      "foreign_tax_identifying_number": "",
+      "1042s_tax_form_applicable": false,
+      "nra_fee_indicator": false,
+      "nra_indicator": false,
+      "backup_withholding_indicator": false,
+      "vip_indicator": false,
+      "per_stirpes": "N/A",
+      "clause_description": "",
+      "government_issued_photo_id": {
+        "label": "Driver's License",
+        "other_description": "",
+        "state_or_country_of_issue": "CA"
+      },
+      "address": [
+        {
+          "item_id": "ADDR003",
+          "address_type": "Residential",
+          "address_line_1": "456 Side St",
+          "address_line_2": "Apt 202",
+          "address_line_3": "",
+          "city": "San Diego",
+          "state": "CA",
+          "postal_code": "92101",
+          "country": "USA",
+          "preferred_address_indicator": true,
+          "preferred_sending_method": "Email",
+          "postal_drop_code": "",
+          "seasonal_address_indicator": false,
+          "seasonal_start_date": "",
+          "seasonal_end_date": "",
+          "bad_address_indicator": false,
+          "address_occupancy_information": {
+            "effective_start_date": "2018-01-01",
+            "effective_end_date": ""
+          }
+        }
+      ],
+      "email_address": [
+        {
+          "item_id": "EMAIL003",
+          "is_valid": "true",
+          "address": "alice.doe@example.com"
+        }
+      ],
+      "phone_number": [
+        {
+          "item_id": "PHONE003",
+          "phone_type": "Mobile",
+          "dial_number": "2345678901"
+        }
+      ],
+      "trust_type": "",
+      "trust_established_date": "",
+      "owner_date_of_birth": "",
+      "settlor_or_grantor": {
+        "settlor_or_grantor_detail": {
+          "settlor_grantor_name": "",
+          "settlor_grantor_date_of_birth": "",
+          "settlor_grantor_government_id": "",
+          "living_or_deceased": "",
+          "ugma_utma_state": "",
+          "custodian_name": "",
+          "trust_state": "",
+          "agent_not_beneficiary_indicator": false
+        },
+        "trustee": {
+          "number_of_trustees": "0",
+          "trustee_action": "",
+          "trustee_action_other_explanation": ""
+        }
+      }
+    }
+  ],
+  "contingent_beneficiary": [
+    {
+      "item_id": "CB001",
+      "scv_id": "SVC678",
+      "record_type": "Individual",
+      "relationship_to_annuitant": "Child",
+      "relationship_to_annuitant_other_explanation": "",
+      "beneficiary_type": "Contingent",
+      "beneficiary_percentage": "50",
+      "first_name": "Bob",
+      "middle_name": "D",
+      "last_name": "Doe",
+      "prefix": "Mr.",
+      "suffix": "",
+      "full_name": "Bob D Doe",
+      "gender_code": "M",
+      "date_of_birth": "1998-09-12",
+      "government_id": "123415890",
+      "government_id_type_code": "SSN",
+      "government_id_certified_indicator": true,
+      "place_of_birth": "San Francisco, CA",
+      "is_us_citizen": true,
+      "country_of_citizenship": "USA",
+      "w8_receipt_date": "",
+      "tax_form_expiration_date": "2026-09-12",
+      "foreign_tax_identifying_number": "",
+      "1042s_tax_form_applicable": false,
+      "nra_fee_indicator": false,
+      "nra_indicator": false,
+      "backup_withholding_indicator": false,
+      "vip_indicator": false,
+      "per_stirpes": "N/A",
+      "clause_description": "",
+      "existing_insurance_indicator": false,
+      "government_issued_photo_id": {
+        "label": "Driver's License",
+        "other_description": "",
+        "state_or_country_of_issue": "CA"
+      },
+      "address": [
+        {
+          "item_id": "ADDR004",
+          "address_type": "Residential",
+          "address_line_1": "789 Another Rd",
+          "address_line_2": "Suite 303",
+          "address_line_3": "",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94101",
+          "country": "USA",
+          "preferred_address_indicator": true,
+          "preferred_sending_method": "Email",
+          "postal_drop_code": "",
+          "seasonal_address_indicator": false,
+          "seasonal_start_date": "",
+          "seasonal_end_date": "",
+          "bad_address_indicator": false,
+          "address_occupancy_information": {
+            "effective_start_date": "2020-01-01",
+            "effective_end_date": ""
+          }
+        }
+      ],
+      "email_address": [
+        {
+          "item_id": "EMAIL004",
+          "is_valid": "true",
+          "address": "bob.doe@example.com"
+        }
+      ],
+      "phone_number": [
+        {
+          "item_id": "PHONE004",
+          "phone_type": "Mobile",
+          "dial_number": "3456789012"
+        }
+      ],
+      "trust_type": "",
+      "trust_established_date": "",
+      "owner_date_of_birth": "",
+      "settlor_or_grantor": {
+        "settlor_or_grantor_detail": {
+          "settlor_grantor_name": "",
+          "settlor_grantor_date_of_birth": "",
+          "settlor_grantor_government_id": "",
+          "living_or_deceased": "",
+          "ugma_utma_state": "",
+          "custodian_name": "",
+          "trust_state": "",
+          "agent_not_beneficiary_indicator": false
+        },
+        "trustee": {
+          "trustee_name": [],
+          "trustee_action": "",
+          "trustee_action_other_explanation": ""
+        }
+      }
+    }
+  ],
+  "tertiary_beneficiary": [
+    {
+      "item_id": "TB001",
+      "scv_id": "SVC901",
+      "record_type": "Individual",
+      "relationship_to_annuitant": "Niece",
+      "relationship_to_annuitant_other_explanation": "",
+      "beneficiary_type": "Tertiary",
+      "beneficiary_percentage": "25",
+      "first_name": "Clara",
+      "middle_name": "E",
+      "last_name": "Doe",
+      "prefix": "Ms.",
+      "suffix": "",
+      "full_name": "Clara E Doe",
+      "gender_code": "F",
+      "date_of_birth": "2000-03-15",
+      "government_id": "123416901",
+      "government_id_type_code": "SSN",
+      "government_id_certified_indicator": true,
+      "place_of_birth": "Los Angeles, CA",
+      "is_us_citizen": true,
+      "country_of_citizenship": "USA",
+      "w8_receipt_date": "",
+      "tax_form_expiration_date": "2027-03-15",
+      "foreign_tax_identifying_number": "",
+      "1042s_tax_form_applicable": false,
+      "nra_fee_indicator": false,
+      "nra_indicator": false,
+      "backup_withholding_indicator": false,
+      "vip_indicator": false,
+      "per_stirpes": "N/A",
+      "clause_description": "",
+      "existing_insurance_indicator": false,
+      "government_issued_photo_id": {
+        "label": "Driver's License",
+        "other_description": "",
+        "state_or_country_of_issue": "CA"
+      },
+      "address": [
+        {
+          "item_id": "ADDR005",
+          "address_type": "Residential",
+          "address_line_1": "101 Side Lane",
+          "address_line_2": "",
+          "address_line_3": "",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90002",
+          "country": "USA",
+          "preferred_address_indicator": true,
+          "preferred_sending_method": "Email",
+          "postal_drop_code": "",
+          "seasonal_address_indicator": false,
+          "seasonal_start_date": "",
+          "seasonal_end_date": "",
+          "bad_address_indicator": false,
+          "address_occupancy_information": {
+            "effective_start_date": "2022-01-01",
+            "effective_end_date": ""
+          }
+        }
+      ],
+      "email_address": [
+        {
+          "item_id": "EMAIL005",
+          "is_valid": "true",
+          "address": "clara.doe@example.com"
+        }
+      ],
+      "phone_number": [
+        {
+          "item_id": "PHONE005",
+          "phone_type": "Mobile",
+          "dial_number": "4567890123"
+        }
+      ],
+      "trust_type": "",
+      "trust_established_date": "",
+      "owner_date_of_birth": "",
+      "settlor_or_grantor": {
+        "settlor_or_grantor_detail": {
+          "settlor_grantor_name": "",
+          "settlor_grantor_date_of_birth": "",
+          "settlor_grantor_government_id": "",
+          "living_or_deceased": "",
+          "ugma_utma_state": "",
+          "custodian_name": "",
+          "trust_state": "",
+          "agent_not_beneficiary_indicator": false
+        },
+        "trustee": {
+          "trustee_name": [],
+          "trustee_action": "",
+          "trustee_action_other_explanation": ""
+        }
+      }
+    }
+  ],
+  "producer": [
+    {
+      "item_id": "P001",
+      "spv_id": "SPV123",
+      "producer_code": "PC456",
+      "national_producer_number": "NPN789",
+      "primary_producer_indicator": true,
+      "producer_split_commission_percent": "100",
+      "producer_commission_option": "Standard",
+      "producer_role_type": "Agent",
+      "override_dcm_delegation": false,
+      "suitability_delegated": true
+    }
+  ],
+  "application_details": {
+    "contract_number": "J1231234110",
+    "application_control_number": "MCN7891031",
+    "application_replacement_indicator": "No",
+    "replacement_type": "None",
+    "distributor_account_id": "DA123",
+    "vendor_confirmation_number": "VC456",
+    "military_personnel_disclosure": false,
+    "document_control_number": "DCN789",
+    "application_jurisdiction": {
+      "application_state": "CA"
+    },
+    "distribution_channel": "Broker",
+    "vip_indicator": false,
+    "amendment_verbiage": "Standard terms apply.",
+    "electronic_delivery": {
+      "e_delivery_signature_indicator": true,
+      "e_delivery_email_address": "john.doe@example.com",
+      "e_delivery_constent_indicator": true,
+      "is_eligible_for_e_delivery": true,
+      "e_delivery_override_indicator": false,
+      "electronic_transaction_authorization": true
+    },
+    "application_date": {
+      "application_submission_date": "2023-09-25",
+      "application_received_date": "2023-09-26",
+      "contract_effective_date": "2023-10-01",
+      "final_requirements_date": "2023-09-30",
+      "contract_effective_date_option": "Immediate",
+      "application_signed_date": "2023-09-24"
+    },
+    "application_signature": {
+      "is_owner_signature_present": true,
+      "is_joint_owner_signature_present": true,
+      "is_annuitant_signature_present": true,
+      "is_joint_annuitant_signature_present": true,
+      "is_producer_signature_present": true,
+      "owner_application_signed_city": "Los Angeles",
+      "owner_application_signed_state": "CA",
+      "owner_application_signature_name": "John A Doe",
+      "producer_application_signed_city": "Los Angeles",
+      "producer_application_signed_state": "CA",
+      "producer_application_signature_name": "Agent Smith"
+    },
+    "replacement_existing_life_annuity_indicator": false,
+    "existing_life_or_annuity": false,
+    "solicitation_state": "CA",
+    "special_instructions": "",
+    "federal_tax": {
+      "withhold": true,
+      "default_rate": true,
+      "amount": 1000,
+      "percent": 10
+    },
+    "state_tax": {
+      "withhold": true,
+      "default_rate": true,
+      "amount": 500,
+      "percent": 5
+    },
+    "pay_annuity_payment_method": {
+      "payment_100_percent_to_owner": true,
+      "payment_100_percent_to_owner_check": false,
+      "payment_100_percent_to_owner_direct_deposit": true,
+      "payment_other": false
+    }
+  },
+  "product": {
+    "product_type": "Fixed Annuity",
+    "plan_name": "Athene AccuMax",
+    "product_cusip": "CUSIP12345",
+    "product_code": "PCode123",
+    "riders": [
+      {
+        "rider_name": "Guaranteed Lifetime Withdrawal Benefit"
+      }
+    ],
+    "product_name": "Secure Future Annuity",
+    "return_of_premium_rider": true,
+    "term_years": 10
+  },
+  "premium": {
+    "total_anticipated_premium": "50000",
+    "premium_new_purchase": "50000",
+    "transfer_rollover": "0",
+    "internal_transfer": "0",
+    "initial_premium_payment": "50000",
+    "committed_premium": "50000",
+    "total_committed_capital": "50000",
+    "expected_premium_band": "Standard",
+    "override_premium_band_indicator": false,
+    "premium_band_override": "",
+    "rate_effective_date": "2023-10-01",
+    "rate_lock_override_indicator": false,
+    "rate_lock_override_date": "",
+    "initial_deposit_amount": "50000",
+    "pricing_date": "2023-09-25",
+    "quote_date": "2023-09-20",
+    "premium_transfer_type": "Wire",
+    "premium_transfer_amount": "50000",
+    "existing_athene_contract_number": ""
+  },
+  "stream": {
+    "stream_type": "Lifetime Income",
+    "stream_percent": 5,
+    "payment_frequency": "Monthly",
+    "default_first_payment_date": "2023-11-01",
+    "first_payment_date": "2023-11-01",
+    "number_of_years": 20,
+    "certain_period": "10 years",
+    "increase_type": "Fixed",
+    "percent_increase": "2",
+    "is_alternate_payee_selected": false,
+    "payment_option": "Direct Deposit"
+  },
+  "allocations": {
+    "segment_options": [
+      {
+        "segment_term": "1 Year",
+        "index": "S&P 500",
+        "buffer": "10%",
+        "allocation": "100%"
+      }
+    ],
+    "total_allocation_percent": "100",
+    "fund_allocation_provided_indicator": "Yes",
+    "fund_availability_date": "2023-10-01",
+    "fund_availability_date_override_indicator": "No",
+    "incomplete_funds_information_provided": "No",
+    "qualified_annuity_contract": true,
+    "non_qualified_annuity_contract": false,
+    "add_athene_legacy_rider": false,
+    "ascent_income_rider": "Yes",
+    "family_endowment_rider": "No",
+    "income_base_flex_growth": true,
+    "income_base_sgo_max": false,
+    "initial_allocation_type": "Fixed"
+  },
+  "annuity": {
+    "annuity_type": "Deferred",
+    "annuity_sub_type": "Fixed",
+    "qualified_option": "IRA",
+    "qualified_option_description": "Individual Retirement Account",
+    "decedent_relationship_to_proposed_annuitant": false,
+    "decedent_relationship_to_proposed_annuitant_other_explanation": "",
+    "decedent_full_name": "",
+    "decedent_date_of_birth": "",
+    "decedent_date_of_death": ""
+  },
+  "suspense_item": [
+    {
+      "item_id": "SI001",
+      "financial_activity_sys_key": "FA123",
+      "retained_commission_amount": "500",
+      "reporting_tax_year": "2023",
+      "financial_activity_key": "FA456",
+      "payment_information": {
+        "payment_amount": "50000",
+        "premium_method": "Wire Transfer",
+        "premium_type": "Initial"
+      }
+    }
+  ],
+  "transfer_exchange": [
+    {
+      "item_id": "TE001",
+      "surrendering_company_name": "Old Insurance Co.",
+      "surrendering_company_contract_number": "OC123456",
+      "surrendering_company_address_line_1": "789 Old St",
+      "surrendering_company_address_line_2": "",
+      "surrendering_company_address_city": "Oldtown",
+      "surrendering_company_address_state": "CA",
+      "surrendering_company_address_postal_code": "90210",
+      "surrendering_company_phone": "555-123-4567",
+      "surrendering_company_fax": "555-765-4321",
+      "surrendering_plan_type": "401(k)",
+      "surrendering_product_type": "Variable Annuity",
+      "estimated_amount_of_transfer": "50000",
+      "owner_full_name": "John A Doe",
+      "owner_government_id": "123416789",
+      "joint_owner_full_name": "Jane B Doe",
+      "joint_owner_government_id": "123424321",
+      "annuitant_full_name": "John A Doe",
+      "annuitant_government_id": "123456789",
+      "joint_annuitant_full_name": "Jane B Doe",
+      "joint_annuitant_government_id": "9123464321",
+      "contingent_annuitant_full_name": "",
+      "contingent_annuitant_government_id": "",
+      "subject_backup_withholding_irs": "No",
+      "owner_signature": "John A Doe",
+      "owner_signature_date": "2023-09-30",
+      "joint_owner_signature": "Jane B Doe",
+      "joint_owner_signature_date": "2023-09-30",
+      "annuitant_signature": "John A Doe",
+      "annuitant_signature_date": "2023-09-30",
+      "irrevocable_beneficiary_signature": "",
+      "irrevocable_beneficiary_signature_date": "",
+      "spouse_signature": "",
+      "spouse_signature_dsate": "",
+      "receiving_plan_type": "IRA",
+      "receiving_product_type": "Fixed Annuity",
+      "authorized_officer_full_name": "Officer Smith",
+      "authorized_officer_title": "Manager",
+      "authorized_officer_signature": "Officer Smith",
+      "authorized_officer_signature_date": "2023-09-30"
+    }
+  ]
+}
