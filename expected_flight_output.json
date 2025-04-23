@@ -1,0 +1,374 @@
+{
+    "transaction": {
+        "transaction_id": "33f59355-200d-11f0-a7d5-bb779e2f0dea",
+        "transaction_type": "New Business Submit",
+        "transaction_sub_type": "New Business Submit",
+        "status": null,
+        "received_timestamp": null,
+        "source_system": "AtheneFirelight1",
+        "source_transaction_id": null,
+        "source_transaction_timestamp": null
+    },
+    "annuitant": {
+        "item_id": null,
+        "scv_id": null,
+        "relationship_to_owner": null,
+        "relationship_to_owner_other_explanation": null,
+        "first_name": "lavanya",
+        "middle_name": "R",
+        "last_name": "Gowda",
+        "prefix": null,
+        "suffix": null,
+        "full_name": "Lavanya R Gowda",
+        "gender_code": "F",
+        "date_of_birth": "21/04/1997",
+        "age": "28",
+        "government_id": "213-23-5432",
+        "government_id_type_code": null,
+        "government_id_certified_indicator": null,
+        "government_issued_photo_id": {
+            "label": null,
+            "other_description": "null",
+            "state_or_country_of_issue": null
+        },
+        "place_of_birth": null,
+        "is_us_citizen": "No",
+        "country_of_citizenship": "India",
+        "w8_receipt_date": null,
+        "tax_form_expiration_date": null,
+        "foreign_tax_identifying_number": null,
+        "1042s_tax_form_applicable": null,
+        "nra_fee_indicator": null,
+        "nra_indicator": null,
+        "backup_withholding_indicator": null,
+        "vip_indicator": null,
+        "per_stirpes": null,
+        "address": [
+            {
+                "item_id": "33f557f3-200d-11f0-a51b-bb779e2f0dea",
+                "address_type": "mailing_address",
+                "address_line_1": "#54,Bhuvaneshwari Nagar",
+                "address_line_2": "Dasarahalli",
+                "address_line_3": "Hebbal",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "postal_code": "560024",
+                "country": "India",
+                "preferred_address_indicator": null,
+                "preferred_sending_method": null,
+                "postal_drop_code": null,
+                "seasonal_address_indicator": null,
+                "seasonal_start_date": null,
+                "seasonal_end_date": null,
+                "bad_address_indicator": null,
+                "address_occupancy_information": {
+                    "effective_start_date": null,
+                    "effective_end_date": null
+                }
+            },
+            {
+                "item_id": "33f55944-200d-11f0-bf77-bb779e2f0dea",
+                "address_type": "residential_address",
+                "address_line_1": "121,saraswathipura",
+                "address_line_2": null,
+                "address_line_3": null,
+                "city": "Kadur",
+                "state": "karnataka",
+                "postal_code": "577548",
+                "country": "India",
+                "preferred_address_indicator": null,
+                "preferred_sending_method": null,
+                "postal_drop_code": null,
+                "seasonal_address_indicator": null,
+                "seasonal_start_date": null,
+                "seasonal_end_date": null,
+                "bad_address_indicator": null,
+                "address_occupancy_information": {
+                    "effective_start_date": null,
+                    "effective_end_date": null
+                }
+            }
+        ],
+        "email_address": [
+            {
+                "item_id": null,
+                "is_valid": null,
+                "address": "lavanya@test.com"
+            }
+        ],
+        "phone_number": [
+            {
+                "item_id": null,
+                "phone_type": null,
+                "dial_number": "(555) 321-456723"
+            }
+        ]
+    },
+    "application_details": {
+        "contract_number": null,
+        "application_control_number": null,
+        "application_replacement_indicator": null,
+        "replacement_type": null,
+        "distributor_account_id": null,
+        "vendor_confirmation_number": null,
+        "military_personnel_disclosure": null,
+        "document_control_number": null,
+        "application_jurisdiction": {
+            "application_state": null
+        },
+        "distribution_channel": null,
+        "vip_indicator": null,
+        "amendment_verbiage": null,
+        "electronic_delivery": {
+            "e_delivery_signature_indicator": null,
+            "e_delivery_email_address": null,
+            "e_delivery_consent_indicator": null,
+            "is_eligible_for_e_delivery": null,
+            "e_delivery_override_indicator": null,
+            "electronic_transaction_authorization": null
+        },
+        "application_date": {
+            "application_submission_date": null,
+            "application_received_date": null,
+            "contract_effective_date": null,
+            "final_requirements_date": null,
+            "contract_effective_date_option": null,
+            "application_signed_date": null,
+            "application_signed_date_review_status": null
+        },
+        "application_signature": {
+            "is_owner_signature_present": "Yes",
+            "is_joint_owner_signature_present": null,
+            "is_annuitant_signature_present": null,
+            "is_joint_annuitant_signature_present": null,
+            "is_producer_signature_present": "Yes",
+            "owner_application_signed_city": "Harrisburg",
+            "owner_application_signed_state": "Pennsylvania",
+            "owner_application_signature_name": "Jackie A Oconnor",
+            "producer_application_signed_city": "Harrisburg",
+            "producer_application_signed_state": "Pennsylvania",
+            "producer_application_signature_name": "Larry Roberts"
+        },
+        "replacement_existing_life_annuity_indicator": null,
+        "existing_life_or_annuity": null,
+        "solicitation_state": null,
+        "special_instructions": null,
+        "federal_tax": {
+            "withhold": null,
+            "default_rate": null,
+            "amount": null,
+            "percent": null
+        },
+        "state_tax": {
+            "withhold": null,
+            "default_rate": null,
+            "amount": null,
+            "percent": null
+        },
+        "pay_annuity_payment_method": {
+            "payment_100_percent_to_owner": null,
+            "payment_100_percent_to_owner_check": null,
+            "payment_100_percent_to_owner_direct_deposit": null,
+            "payment_other": null
+        },
+        "application_status": null
+    },
+    "product_comparison_worksheet": [
+        {
+            "application_number": null,
+            "replacing_contract": {
+                "existing_annuitant_full_name": null,
+                "company_name": null,
+                "contract_number": null,
+                "annuitant_full_name": "Lavanya R Gowda",
+                "initial_premium": null,
+                "total_annual_fees_percent": null,
+                "issue_date": null,
+                "type": null,
+                "replacement_type": null,
+                "marketing_name": null,
+                "source_of_initial_premium": null,
+                "qualified_contract": null,
+                "maturity_date": null,
+                "lump_sum_death_benefit": {
+                    "amount": null,
+                    "rider": {
+                        "value": null,
+                        "not_applicable": null
+                    }
+                },
+                "comply_medicaid_qualifications": null,
+                "change_annuitant_upon_death": null,
+                "initial_surrender_charge_period_years": null,
+                "first_year_surrender_charge_percent": null,
+                "surrender_charge_schedule_remaining_years": null,
+                "free_withdrawal_available": null,
+                "free_withdrawal_percent_rate": null,
+                "potential_tax_penalty_explanation": null,
+                "annuitized_death_benefit": {
+                    "value": null,
+                    "years": null,
+                    "not_applicable": null,
+                    "rider": {
+                        "value": null,
+                        "years": null,
+                        "not_applicable": null
+                    }
+                },
+                "investment_components": [
+                    {
+                        "label": null,
+                        "explanation": null
+                    }
+                ],
+                "waiver_surrender_charge_benefit": null,
+                "riders_features": {
+                    "rider_type": null,
+                    "rider_current_value": null,
+                    "rider_annual_fee": null,
+                    "changes_since_income_rider_purchase": null
+                },
+                "loss_of_benefits_enhancements_if_existing_contract_exchange": [
+                    {
+                        "label": null,
+                        "explanation": null
+                    }
+                ],
+                "living_benefits": [
+                    {
+                        "label": null,
+                        "explanation": null
+                    }
+                ],
+                "minimum_guaranteed_interest_rate": {
+                    "percent": null,
+                    "not_applicable": null
+                },
+                "current_fixed_rate": {
+                    "percent": null,
+                    "not_applicable": null
+                },
+                "limitations_on_interest_returns": [
+                    {
+                        "label": null,
+                        "explanation": null
+                    }
+                ],
+                "interest_rate_cap": {
+                    "not_applicable": null,
+                    "options": [
+                        {
+                            "percent": null,
+                            "term_years": null
+                        }
+                    ]
+                },
+                "participation_rate": {
+                    "not_applicable": null,
+                    "options": [
+                        {
+                            "percent": null,
+                            "term_years": null
+                        }
+                    ]
+                },
+                "spread": {
+                    "not_applicable": null,
+                    "options": [
+                        {
+                            "percent": null,
+                            "term_years": null
+                        }
+                    ]
+                },
+                "indexing_strategy": {
+                    "not_applicable": null,
+                    "options": [
+                        {
+                            "name": null,
+                            "term_years": null
+                        }
+                    ]
+                },
+                "other_fees_description": null,
+                "initial_bonus_percent_or_amount": null,
+                "potential_loss_of_bonus_if_exchanged": null,
+                "limits_and_exclusions_for_bonuses": [
+                    {
+                        "label": null,
+                        "explanation": null
+                    }
+                ],
+                "accumulated_value": null,
+                "surrender_value": null,
+                "free_withdrawal_percent": null,
+                "replace_life_insurance_explanation": null,
+                "same_producer_solicited_new_athene_contract": null,
+                "age_income_begins": null,
+                "company_guaranteed_annual_income_at_the_age": null,
+                "income_rider": {
+                    "forfeited": null,
+                    "value": null,
+                    "change_explanation": null
+                },
+                "external_annuity": {
+                    "can_be_annuitized_indicator": null,
+                    "annuitized_payout_amount": null,
+                    "payout_option": null,
+                    "annuitization_date": null,
+                    "convert_to_spia": null,
+                    "spia_payout_amount": null,
+                    "spia_payout_option": null,
+                    "spia_explanation": null
+                },
+                "internal_replacement_spia_explanation": null,
+                "total_annual_fees_not_applicable": null,
+                "existing_contract_income_rider": {
+                    "forfeited": null,
+                    "value": null,
+                    "change_explanation": null
+                },
+                "annuity_annual_income": null,
+                "policy_enhancement_description": null,
+                "investment_fixed": null,
+                "investment_fixed_percent": null,
+                "investment_fixed_years": null,
+                "investment_variable": null,
+                "investment_indexed": null,
+                "12_month_rate_of_return_percent": null,
+                "other_life_insurance_coverage_amount": null,
+                "additional_premium": null
+            },
+            "proposed_contract": {
+                "initial_premium_percentage": null,
+                "additional_premium_percentage": null,
+                "income_rider": null,
+                "family_endowment_rider_with_bonus": null,
+                "initial_premium": null
+            },
+            "comments": null,
+            "surrendered_exchanged_annuity_last_36_months": null,
+            "surrendered_exchanged_annuity_last_60_months": null,
+            "surrendered_exchanged_annuity_explanation": null,
+            "surrender_date": null,
+            "surrender_charges": null,
+            "surrender_charges_annuity_total_value": null,
+            "surrender_charges_annuity_surrender_value": null,
+            "surrender_charges_market_value_adjustment": null,
+            "surrender_charges_positive_market_value_adjustment": null,
+            "surrender_charges_negative_market_value_adjustment": null,
+            "surrender_charges_market_value_adjustment_not_applicable": null,
+            "owner_full_name": null,
+            "owner_signature": null,
+            "owner_signature_date": null,
+            "joint_owner_full_name": null,
+            "joint_owner_signature": null,
+            "joint_owner_signature_date": null,
+            "producer_full_name": null,
+            "producer_florida_license_number": null,
+            "producer_signature": null,
+            "producer_signature_date": null,
+            "producer_code": null
+        }
+    ]
+}
