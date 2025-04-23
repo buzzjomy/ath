@@ -5,3 +5,4 @@ region = 'us-east-1'
 firelight_lambda_func = 'intake-api-firelight-function'
 hyperscience_bucket_name = 'intake-api-hyperscience-s3-713881800640' 
 expected_flight_json_file = f'C:\\Workitems\\code\\Story\\1844\\expected_flight_output.json'
+state_machine_arn = "arn:aws:states:us-east-1:713881800640:stateMachine:state-machine-step-function"

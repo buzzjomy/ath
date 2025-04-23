@@ -1,0 +1,14 @@
+{'type_changes': {
+        "root['annuitant']['government_issued_photo_id']['other_description']": {'old_type': <class 'NoneType'>, 'new_type': <class 'str'>, 'old_value': None, 'new_value': 'null'
+        }
+    }, 'values_changed': {
+        "root['transaction']['transaction_id']": {'new_value': '33f59355-200d-11f0-a7d5-bb779e2f0dea', 'old_value': '9fde745b-2031-11f0-9fe8-cf7a2423dd4e'
+        },
+        "root['transaction']['source_system']": {'new_value': 'AtheneFirelight1', 'old_value': 'AtheneFirelight'
+        },
+        "root['annuitant']['address'][0]['item_id']": {'new_value': '33f557f3-200d-11f0-a51b-bb779e2f0dea', 'old_value': '9fde2627-2031-11f0-b097-cf7a2423dd4e'
+        },
+        "root['annuitant']['address'][1]['item_id']": {'new_value': '33f55944-200d-11f0-bf77-bb779e2f0dea', 'old_value': '9fde2804-2031-11f0-9f9d-cf7a2423dd4e'
+        }
+    }
+}
