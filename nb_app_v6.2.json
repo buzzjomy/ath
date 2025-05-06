@@ -1,0 +1,1483 @@
+{
+    "open_tasks": [
+        {
+            "item_id": "string",
+            "task_name": "string",
+            "task_type": "string",
+            "priority": "number",
+            "rule_id": "string",
+            "time_stamp": "string"
+        }
+    ],
+    "closed_tasks": [
+        {
+            "item_id": "string",
+            "task_name": "string",
+            "task_type": "string",
+            "priority": "number",
+            "rule_id": "string",
+            "start_timestamp": "ISO 8601 string",
+            "end_timestamp": "ISO 8601 string"
+        }
+    ],
+    "transaction_history": [
+        {
+            "item_id": "string",
+            "transaction_run_id": "string",
+            "start_timestamp": "ISO 8601 string",
+            "end_timestamp": "ISO 8601 string"
+        }
+    ],
+    "rule_eval_history": [
+        {
+            "item_id": "string",
+            "rule_id": "string",
+            "message": "string",
+            "status": "boolean",
+            "run_id": "string"
+        }
+    ],
+    "active_pend_intervention": [
+        {
+            "item_id": "string",
+            "appian_case_id": "string",
+            "pend_timestamp": "ISO 8601 string",
+            "reason_code": "string",
+            "description": "string",
+            "resume_at_step": "string"
+        }
+    ],
+    "pend_history_intervention": [
+        {
+            "item_id": "string",
+            "appian_case_id": "string",
+            "pend_timestamp": "ISO 8601 string",
+            "reason_code": "string",
+            "description": "string",
+            "resume_at_step": "string"
+        }
+    ],
+    "active_pend_duration": [
+        {
+            "item_id": "string",
+            "reason_code": "string",
+            "pend_timestamp": "ISO 8601 string",
+            "description": "string",
+            "resume_at_step": "string",
+            "duration_hours": "number"
+        }
+    ],
+    "pend_history_duration": [
+        {
+            "reason_code": "string",
+            "pend_timestamp": "ISO 8601 string",
+            "description": "string",
+            "resume_at_step": "string",
+            "duration_hours": "number"
+        }
+    ],
+    "related_transactions": [
+        {
+            "item_id": "string",
+            "transaction_id": "string",
+            "transaction_type": "string",
+            "relationship": "string",
+            "parent_indicator": "boolean"
+        }
+    ],
+    "meta_data": {
+		"state_machine_run_count": "number",
+		"rule_id": "string",
+		"flow_control": {
+		  "on_false_collection": ["string"],
+		  "message": "string",
+		  "on_true_collection": ["string"],
+		  "current_rule": "string",
+		  "execution_status": "boolean"
+		},
+		"business_rule_results": [
+		  {
+			"item_id": "string",
+			"eval_data": "string"
+		  }
+		],
+		"search_parameter": [
+		  {
+			"key": "string",
+			"value": "string"
+		  }
+		  ],
+		"search_output": {
+		  "transaction_ids": ["string"]
+			}
+	  },
+    "transaction": {
+        "transaction_id": "string",
+        "transaction_type": "string",
+        "transaction_sub_type": "string",
+        "status": "string",
+        "received_timestamp": "ISO 8601 string",
+        "source_system": "string",
+        "source_transaction_id": "string",
+        "source_transaction_timestamp": "ISO 8601 string"
+    },
+    "supporting_documents": [
+        {
+            "item_id": "string",
+            "document_id": "string",
+            "document_type": "string",
+            "document_title": "string",
+            "document_date": "ISO 8601 string"
+        }
+    ],
+    "annuitant": {
+        "item_id": "string",
+        "scv_id": "string",
+        "owner_relationship_indicator": "boolean",
+        "relationship_to_owner_other_explanation": "string",
+        "first_name": "string",
+        "middle_name": "string",
+        "last_name": "string",
+        "prefix": "string",
+        "suffix": "string",
+        "full_name": "string",
+        "gender_code": "string",
+        "birth_date": "ISO 8601 string",
+        "age": "number",
+        "government_id": "string",
+        "government_id_type_code": "string",
+        "government_id_certified_indicator": "boolean",
+        "government_issued_photo_id": {
+            "label": "string",
+            "other_description": "string",
+            "issued_state_or_country": "string"
+        },
+        "birth_place": "string",
+        "citizen_indicator": "boolean",
+        "citizenship_country": "string",
+        "w8_receipt_date": "ISO 8601 string",
+        "tax_form_expiration_date": "ISO 8601 string",
+        "foreign_tax_identifying_number": "string",
+        "1042s_tax_form_applicable": "boolean",
+        "nra_fee_indicator": "boolean",
+        "nra_indicator": "boolean",
+        "backup_withholding_indicator": "boolean",
+        "vip_indicator": "boolean",
+        "per_stirpes_indicator": "boolean",
+        "address": [
+            {
+                "item_id": "string",
+                "address_type": "string",
+                "address_line_1": "string",
+                "address_line_2": "string",
+                "address_line_3": "string",
+                "city": "string",
+                "state": "string",
+                "postal_code": "string",
+                "country": "string",
+                "preferred_address_indicator": "boolean",
+                "preferred_sending_method": "string",
+                "postal_drop_code": "string",
+                "seasonal_address_indicator": "boolean",
+                "seasonal_start_date": "ISO 8601 string",
+                "seasonal_end_date": "ISO 8601 string",
+                "bad_address_indicator": "boolean",
+                "address_occupancy_information": {
+                    "effective_start_date": "ISO 8601 string",
+                    "effective_end_date": "ISO 8601 string"
+                }
+            }
+        ],
+        "email_address": [
+            {
+                "item_id": "string",
+                "valid_indicator": "boolean",
+                "address": "string"
+            }
+        ],
+        "phone_number": [
+            {
+                "item_id": "string",
+                "phone_type": "string",
+                "dial_number": "string"
+            }
+        ]
+    },
+    "joint_annuitant": {
+        "item_id": "string",
+        "scv_id": "string",
+        "annuitant_relationship_indicator": "boolean",
+        "annuitant__other_relationship_description": "string",
+        "owner_relationship_indicator": "boolean",
+        "owner_other_relationship_description": "string",
+        "first_name": "string",
+        "middle_name": "string",
+        "last_name": "string",
+        "prefix": "string",
+        "suffix": "string",
+        "full_name": "string",
+        "gender_code": "string",
+        "birth_date": "ISO 8601 string",
+        "age": "number",
+        "government_id": "string",
+        "government_id_type_code": "string",
+        "government_id_certified_indicator": "boolean",
+        "government_issued_photo_id": {
+            "label": "string",
+            "other_description": "string",
+            "issued_state_or_country": "string"
+        },
+        "birth_place": "string",
+        "citizen_indicator": "boolean",
+        "citizenship_country": "string",
+        "w8_receipt_date": "ISO 8601 string",
+        "tax_form_expiration_date": "ISO 8601 string",
+        "foreign_tax_identifying_number": "string",
+        "1042s_tax_form_applicable": "boolean",
+        "nra_fee_indicator": "boolean",
+        "nra_indicator": "boolean",
+        "backup_withholding_indicator": "boolean",
+        "vip_indicator": "boolean",
+        "per_stirpes_indicator": "boolean",
+        "address": [
+            {
+                "item_id": "string",
+                "address_type": "string",
+                "address_line_1": "string",
+                "address_line_2": "string",
+                "address_line_3": "string",
+                "city": "string",
+                "state": "string",
+                "postal_code": "string",
+                "country": "string",
+                "preferred_sending_method": "string",
+                "postal_drop_code": "string",
+                "seasonal_address_indicator": "boolean",
+                "seasonal_start_date": "ISO 8601 string",
+                "seasonal_end_date": "ISO 8601 string",
+                "bad_address_indicator": "boolean",
+                "address_occupancy_information": {
+                    "effective_start_date": "ISO 8601 string",
+                    "effective_end_date": "ISO 8601 string"
+                }
+            }
+        ],
+        "email_address": [
+            {
+                "item_id": "string",
+                "valid_indicator": "boolean",
+                "address": "string"
+            }
+        ],
+        "phone_number": [
+            {
+                "item_id": "string",
+                "phone_type": "string",
+                "dial_number": "string"
+            }
+        ]
+    },
+    "owner": {
+        "item_id": "string",
+        "scv_id": "string",
+        "record_type": "string",
+        "annuitant_relationship_indicator": "boolean",
+        "annuitant__other_relationship_description": "string",
+        "first_name": "string",
+        "middle_name": "string",
+        "last_name": "string",
+        "prefix": "string",
+        "suffix": "string",
+        "full_name": "string",
+        "gender_code": "string",
+        "birth_date": "ISO 8601 string",
+        "age": "number",
+        "government_id": "string",
+        "government_id_type_code": "string",
+        "government_id_certified_indicator": "boolean",
+        "government_issued_photo_id": {
+            "label": "string",
+            "other_description": "string",
+            "issued_state_or_country": "string"
+        },
+        "birth_place": "string",
+        "citizen_indicator": "boolean",
+        "citizenship_country": "string",
+        "w8_receipt_date": "ISO 8601 string",
+        "tax_form_expiration_date": "ISO 8601 string",
+        "foreign_tax_identifying_number": "string",
+        "1042s_tax_form_applicable": "boolean",
+        "nra_fee_indicator": "boolean",
+        "nra_indicator": "boolean",
+        "backup_withholding_indicator": "boolean",
+        "vip_indicator": "boolean",
+        "per_stirpes_indicator": "boolean",
+        "existing_insurance_indicator": "boolean",
+        "address": [
+            {
+                "item_id": "string",
+                "address_type": "string",
+                "address_line_1": "string",
+                "address_line_2": "string",
+                "address_line_3": "string",
+                "city": "string",
+                "state": "string",
+                "postal_code": "string",
+                "country": "string",
+                "preferred_address_indicator": "boolean",
+                "preferred_sending_method": "string",
+                "postal_drop_code": "string",
+                "seasonal_address_indicator": "boolean",
+                "seasonal_start_date": "ISO 8601 string",
+                "seasonal_end_date": "ISO 8601 string",
+                "bad_address_indicator": "boolean",
+                "address_occupancy_information": {
+                    "effective_start_date": "ISO 8601 string",
+                    "effective_end_date": "ISO 8601 string"
+                }
+            }
+        ],
+        "email_address": [
+            {
+                "item_id": "string",
+                "valid_indicator": "boolean",
+                "address": "string"
+            }
+        ],
+        "phone_number": [
+            {
+                "item_id": "string",
+                "phone_type": "string",
+                "dial_number": "string"
+            }
+        ],
+        "trust_type": "string",
+        "trust_established_date": "ISO 8601 string",
+        "trust_owner_birth_date": "ISO 8601 string",
+        "ugma_utma_state": "string",
+        "custodian_name": "string",
+        "trust_state": "string",
+        "agent_not_beneficiary_indicator": "boolean",
+        "beneficial_owners": [
+            {
+                "name": "string",
+                "government_id": "string",
+                "birth_date": "ISO 8601 string",
+                "passport_number": "string"
+            }
+        ],
+        "settlors_or_grantors": [
+            {
+                "name": "string",
+                "birth_date": "ISO 8601 string",
+                "government_id": "string",
+                "living_or_deceased": "string"
+            }
+        ],
+        "trustees": {
+            "trustee_name": [],
+            "trustee_action": "string",
+            "trustee_action_other_description": "string"
+        }
+    },
+    "joint_owner": {
+        "item_id": "string",
+        "scv_id": "string",
+        "record_type": "string",
+        "owner_relationship_indicator": "boolean",
+        "owner_other_relationship_description": "string",
+        "annuitant_relationship_indicator": "boolean",
+        "annuitant_other_relationship_description": "string",
+        "first_name": "string",
+        "middle_name": "string",
+        "last_name": "string",
+        "prefix": "string",
+        "suffix": "string",
+        "full_name": "string",
+        "gender_code": "string",
+        "birth_date": "ISO 8601 string",
+        "age": "number",
+        "government_id": "string",
+        "government_id_type_code": "string",
+        "government_id_certified_indicator": "boolean",
+        "government_issued_photo_id": {
+            "label": "string",
+            "other_description": "string",
+            "issued_state_or_country": "string"
+        },
+        "birth_place": "string",
+        "citizen_indicator": "boolean",
+        "citizenship_country": "string",
+        "w8_receipt_date": "ISO 8601 string",
+        "tax_form_expiration_date": "ISO 8601 string",
+        "foreign_tax_identifying_number": "string",
+        "1042s_tax_form_applicable": "boolean",
+        "nra_fee_indicator": "boolean",
+        "nra_indicator": "boolean",
+        "backup_withholding_indicator": "boolean",
+        "vip_indicator": "boolean",
+        "per_stirpes_indicator": "boolean",
+        "existing_insurance_indicator": "boolean",
+        "address": [
+            {
+                "item_id": "string",
+                "address_type": "string",
+                "address_line_1": "string",
+                "address_line_2": "string",
+                "address_line_3": "string",
+                "city": "string",
+                "state": "string",
+                "postal_code": "string",
+                "country": "string",
+                "preferred_address_indicator": "boolean",
+                "preferred_sending_method": "string",
+                "postal_drop_code": "string",
+                "seasonal_address_indicator": "boolean",
+                "seasonal_start_date": "ISO 8601 string",
+                "seasonal_end_date": "ISO 8601 string",
+                "bad_address_indicator": "boolean",
+                "address_occupancy_information": {
+                    "effective_start_date": "ISO 8601 string",
+                    "effective_end_date": "ISO 8601 string"
+                }
+            }
+        ],
+        "email_address": [
+            {
+                "item_id": "string",
+                "valid_indicator": "boolean",
+                "address": "string"
+            }
+        ],
+        "phone_number": [
+            {
+                "item_id": "string",
+                "phone_type": "string",
+                "dial_number": "string"
+            }
+        ],
+        "trust_type": "string",
+        "trust_established_date": "ISO 8601 string",
+		"trust_owner_birth_date": "ISO 8601 string",
+        "ugma_utma_state": "string",
+        "custodian_name": "string",
+        "trust_state": "string",
+        "agent_not_beneficiary_indicator": "boolean",
+        "beneficial_owners": [
+            {
+                "name": "string",
+                "government_id": "string",
+                "birth_date": "ISO 8601 string",
+                "passport_number": "string"
+            }
+        ],
+        "settlors_or_grantors": [
+            {
+                "name": "string",
+                "birth_date": "ISO 8601 string",
+                "government_id": "string",
+                "living_or_deceased": "string"
+            }
+        ],
+        "trustees": {
+            "trustee_name": [],
+            "trustee_action": "string",
+            "trustee_action_other_description": "string"
+        }
+    },
+    "primary_beneficiary": [
+        {
+            "item_id": "string",
+            "scv_id": "string",
+            "record_type": "string",
+            "annuitant_relationship_indicator": "boolean",
+            "annuitant_other_relationship_description": "string",
+            "owner_relationship_indicator": "boolean",
+            "relationship_to_owner_other_explanation": "string",
+            "beneficiary_percentage": "number",
+            "first_name": "string",
+            "middle_name": "string",
+            "last_name": "string",
+            "prefix": "string",
+            "suffix": "string",
+            "full_name": "string",
+            "gender_code": "string",
+            "birth_date": "ISO 8601 string",
+            "government_id": "string",
+            "government_id_type_code": "string",
+            "government_id_certified_indicator": "boolean",
+            "government_issued_photo_id": {
+                "label": "string",
+                "other_description": "string",
+                "issued_state_or_country": "string"
+            },
+            "birth_place": "string",
+            "citizen_indicator": "boolean",
+            "citizenship_country": "string",
+            "w8_receipt_date": "ISO 8601 string",
+            "tax_form_expiration_date": "ISO 8601 string",
+            "foreign_tax_identifying_number": "string",
+            "1042s_tax_form_applicable": "boolean",
+            "nra_fee_indicator": "boolean",
+            "nra_indicator": "boolean",
+            "backup_withholding_indicator": "boolean",
+            "vip_indicator": "boolean",
+            "per_stirpes_indicator": "boolean",
+            "address": [
+                {
+                    "item_id": "string",
+                    "address_type": "string",
+                    "address_line_1": "string",
+                    "address_line_2": "string",
+                    "address_line_3": "string",
+                    "city": "string",
+                    "state": "string",
+                    "postal_code": "string",
+                    "country": "string",
+                    "preferred_address_indicator": "boolean",
+                    "preferred_sending_method": "string",
+                    "postal_drop_code": "string",
+                    "seasonal_address_indicator": "boolean",
+                    "seasonal_start_date": "ISO 8601 string",
+                    "seasonal_end_date": "ISO 8601 string",
+                    "bad_address_indicator": "boolean",
+                    "address_occupancy_information": {
+                        "effective_start_date": "ISO 8601 string",
+                        "effective_end_date": "ISO 8601 string"
+                    }
+                }
+            ],
+            "email_address": [
+                {
+                    "item_id": "string",
+                    "valid_indicator": "boolean",
+                    "address": "string"
+                }
+            ],
+            "phone_number": [
+                {
+                    "item_id": "string",
+                    "phone_type": "string",
+                    "dial_number": "string"
+                }
+            ],
+            "trust_type": "string",
+            "trust_established_date": "ISO 8601 string",
+            "trust_owner_birth_date": "ISO 8601 string",
+            "ugma_utma_state": "string",
+            "custodian_name": "string",
+            "trust_state": "string",
+            "agent_not_beneficiary_indicator": "boolean",
+            "beneficial_owners": [
+                {
+                    "name": "string",
+                    "government_id": "string",
+                    "birth_date": "ISO 8601 string",
+                    "passport_number": "string"
+                }
+            ],
+            "settlors_or_grantors": [
+                {
+                    "name": "string",
+                    "birth_date": "ISO 8601 string",
+                    "government_id": "string",
+                    "living_or_deceased": "string"
+                }
+            ],
+            "trustees": {
+                "trustee_name": "string",
+                "trustee_action": "string",
+                "trustee_action_other_description": "string"
+            }
+        }
+    ],
+    "contingent_beneficiary": [
+        {
+            "item_id": "string",
+            "scv_id": "string",
+            "record_type": "string",
+            "annuitant_relationship_indicator": "boolean",
+            "annuitant_other_relationship_description": "string",
+            "owner_relationship_indicator": "boolean",
+            "relationship_to_owner_other_explanation": "string",
+            "beneficiary_percentage": "number",
+            "first_name": "string",
+            "middle_name": "string",
+            "last_name": "string",
+            "prefix": "string",
+            "suffix": "string",
+            "full_name": "string",
+            "gender_code": "string",
+            "birth_date": "ISO 8601 string",
+            "government_id": "string",
+            "government_id_type_code": "string",
+            "government_id_certified_indicator": "boolean",
+            "government_issued_photo_id": {
+                "label": "string",
+                "other_description": "string",
+                "issued_state_or_country": "string"
+            },
+            "birth_place": "string",
+            "citizen_indicator": "boolean",
+            "citizenship_country": "string",
+            "w8_receipt_date": "ISO 8601 string",
+            "tax_form_expiration_date": "ISO 8601 string",
+            "foreign_tax_identifying_number": "string",
+            "1042s_tax_form_applicable": "boolean",
+            "nra_fee_indicator": "boolean",
+            "nra_indicator": "boolean",
+            "backup_withholding_indicator": "boolean",
+            "vip_indicator": "boolean",
+            "per_stirpes_indicator": "boolean",
+            "address": [
+                {
+                    "item_id": "string",
+                    "address_type": "string",
+                    "address_line_1": "string",
+                    "address_line_2": "string",
+                    "address_line_3": "string",
+                    "city": "string",
+                    "state": "string",
+                    "postal_code": "string",
+                    "country": "string",
+                    "preferred_address_indicator": "boolean",
+                    "preferred_sending_method": "string",
+                    "postal_drop_code": "string",
+                    "seasonal_address_indicator": "boolean",
+                    "seasonal_start_date": "ISO 8601 string",
+                    "seasonal_end_date": "ISO 8601 string",
+                    "bad_address_indicator": "boolean",
+                    "address_occupancy_information": {
+                        "effective_start_date": "ISO 8601 string",
+                        "effective_end_date": "ISO 8601 string"
+                    }
+                }
+            ],
+            "email_address": [
+                {
+                    "item_id": "string",
+                    "valid_indicator": "boolean",
+                    "address": "string"
+                }
+            ],
+            "phone_number": [
+                {
+                    "item_id": "string",
+                    "phone_type": "string",
+                    "dial_number": "string"
+                }
+            ],
+            "trust_type": "string",
+            "trust_established_date": "ISO 8601 string",
+            "trust_owner_birth_date": "ISO 8601 string",
+            "ugma_utma_state": "string",
+            "custodian_name": "string",
+            "trust_state": "string",
+            "agent_not_beneficiary_indicator": "boolean",
+            "beneficial_owners": [
+                {
+                    "name": "string",
+                    "government_id": "string",
+                    "birth_date": "ISO 8601 string",
+                    "passport_number": "string"
+                }
+            ],
+            "settlors_or_grantors": [
+                {
+                    "name": "string",
+                    "birth_date": "ISO 8601 string",
+                    "government_id": "string",
+                    "living_or_deceased": "string"
+                }
+            ],
+            "trustees": {
+                "trustee_name": [],
+                "trustee_action": "string",
+                "trustee_action_other_description": "string"
+            }
+        }
+    ],
+    "tertiary_beneficiary": [
+        {
+            "item_id": "string",
+            "scv_id": "string",
+            "record_type": "string",
+            "annuitant_relationship_indicator": "boolean",
+            "annuitant_other_relationship_description": "string",
+            "owner_relationship_indicator": "boolean",
+            "relationship_to_owner_other_explanation": "string",
+            "beneficiary_percentage": "number",
+            "first_name": "string",
+            "middle_name": "string",
+            "last_name": "string",
+            "prefix": "string",
+            "suffix": "string",
+            "full_name": "string",
+            "gender_code": "string",
+            "birth_date": "ISO 8601 string",
+            "government_id": "string",
+            "government_id_type_code": "string",
+            "government_id_certified_indicator": "boolean",
+            "government_issued_photo_id": {
+                "label": "string",
+                "other_description": "string",
+                "issued_state_or_country": "string"
+            },
+            "birth_place": "string",
+            "citizen_indicator": "boolean",
+            "citizenship_country": "string",
+            "w8_receipt_date": "ISO 8601 string",
+            "tax_form_expiration_date": "ISO 8601 string",
+            "foreign_tax_identifying_number": "string",
+            "1042s_tax_form_applicable": "boolean",
+            "nra_fee_indicator": "boolean",
+            "nra_indicator": "boolean",
+            "backup_withholding_indicator": "boolean",
+            "vip_indicator": "boolean",
+            "per_stirpes_indicator": "boolean",
+            "address": [
+                {
+                    "item_id": "string",
+                    "address_type": "string",
+                    "address_line_1": "string",
+                    "address_line_2": "string",
+                    "address_line_3": "string",
+                    "city": "string",
+                    "state": "string",
+                    "postal_code": "string",
+                    "country": "string",
+                    "preferred_address_indicator": "boolean",
+                    "preferred_sending_method": "string",
+                    "postal_drop_code": "string",
+                    "seasonal_address_indicator": "boolean",
+                    "seasonal_start_date": "ISO 8601 string",
+                    "seasonal_end_date": "ISO 8601 string",
+                    "bad_address_indicator": "boolean",
+                    "address_occupancy_information": {
+                        "effective_start_date": "ISO 8601 string",
+                        "effective_end_date": "ISO 8601 string"
+                    }
+                }
+            ],
+            "email_address": [
+                {
+                    "item_id": "string",
+                    "valid_indicator": "boolean",
+                    "address": "string"
+                }
+            ],
+            "phone_number": [
+                {
+                    "item_id": "string",
+                    "phone_type": "string",
+                    "dial_number": "string"
+                }
+            ],
+            "trust_type": "string",
+            "trust_established_date": "ISO 8601 string",
+            "trust_owner_birth_date": "ISO 8601 string",
+            "ugma_utma_state": "string",
+            "custodian_name": "string",
+            "trust_state": "string",
+            "agent_not_beneficiary_indicator": "boolean",
+            "beneficial_owners": [
+                {
+                    "name": "string",
+                    "government_id": "string",
+                    "birth_date": "ISO 8601 string",
+                    "passport_number": "string"
+                }
+            ],
+            "settlors_or_grantors": [
+                {
+                    "name": "string",
+                    "birth_date": "ISO 8601 string",
+                    "government_id": "string",
+                    "living_or_deceased": "string"
+                }
+            ],
+            "trustees": {
+                "trustee_name": [],
+                "trustee_action": "string",
+                "trustee_action_other_description": "string"
+            }
+        }
+    ],
+    "producer": [
+        {
+            "item_id": "string",
+            "spv_id": "string",
+            "producer_code": "string",
+            "license_number": "string",
+            "national_producer_number": "string",
+            "primary_producer_indicator": "boolean",
+            "producer_split_commission_percent": "number",
+            "producer_commission_option": "string",
+            "producer_role_type": "string",
+            "override_dcm_delegation": "boolean",
+            "suitability_delegated": "boolean"
+        }
+    ],
+    "application_details": {
+        "contract_number": "string",
+		"alip_status": "string",
+        "application_control_number": "string",
+        "application_replacement_indicator": "boolean",
+        "replacement_type": "string",
+        "distributor_account_id": "string",
+        "vendor_confirmation_number": "string",
+        "military_personnel_disclosure": "boolean",
+        "document_control_number": "string",
+        "application_jurisdiction": {
+            "application_state": "string"
+        },
+        "distribution_channel": "string",
+        "vip_indicator": "boolean",
+        "amendment_verbiage": "string",
+        "electronic_delivery": {
+            "e_delivery_signature_indicator": "boolean",
+            "e_delivery_email_address": "string",
+            "e_delivery_consent_indicator": "boolean",
+            "e_delivery_eligibility_indicator": "boolean",
+            "e_delivery_override_indicator": "boolean",
+            "electronic_transaction_authorization": "boolean"
+        },
+        "application_date": {
+            "application_submission_date": "ISO 8601 string",
+            "application_received_date": "ISO 8601 string",
+            "contract_effective_date": "ISO 8601 string",
+            "final_requirements_date": "ISO 8601 string",
+            "contract_effective_date_option": "string",
+            "application_signed_date": "ISO 8601 string",
+            "application_signed_date_review_status": "empty|required|completed"
+        },
+        "application_signature": {
+            "owner_signature_present_indicator": "boolean",
+            "joint_owner_signature_present_indicator": "boolean",
+            "annuitant_signature_present_indicator": "boolean",
+            " joint_annuitant_signature_present_indicator": "boolean",
+            "is_producer_signature_present": "boolean",
+            "owner_application_signed_city": "string",
+            "owner_application_signed_state": "string",
+            "owner_application_signature_name": "string",
+            "producer_application_signed_city": "string",
+            "producer_application_signed_state": "string",
+            "producer_application_signature_name": "string"
+        },
+        "replacement_existing_life_annuity_indicator": "boolean",
+        "existing_life_or_annuity": "boolean",
+        "solicitation_state": "string",
+        "special_instructions": "string",
+        "federal_tax": {
+            "withold_indicator": "boolean",
+            "default_rate": "boolean",
+            "amount": "number",
+            "percent": "number"
+        },
+        "state_tax": {
+            "withold_indicator": "boolean",
+            "default_rate": "boolean",
+            "amount": "number",
+            "percent": "number"
+        },
+        "annuity_payment_method": {
+            "payment_100_percent_to_owner": "boolean",
+            "payment_100_percent_to_owner_check": "boolean",
+            "payment_100_percent_to_owner_direct_deposit": "boolean",
+            "payment_other": "boolean"
+        },
+        "application_status": "Received|Canceled|Completed"
+    },
+    "product": {
+        "product_type": "string",
+        "plan_name": "string",
+        "product_cusip": "string",
+        "product_code": "string",
+        "riders": [
+            {
+                "rider_name": "string"
+            }
+        ],
+        "product_name": "string",
+        "term_years": "number"
+    },
+    "premium": {
+        "total_anticipated_premium": "number",
+        "premium_new_purchase": "number",
+        "transfer_rollover": "number",
+        "internal_transfer": "number",
+        "initial_premium_payment": "number",
+        "committed_premium": "number",
+        "total_committed_capital": "number",
+        "expected_premium_band": "string",
+        "override_premium_band_indicator": "boolean",
+        "premium_band_override": "string",
+        "rate_effective_date": "ISO 8601 string",
+        "rate_lock_override_indicator": "boolean",
+        "rate_lock_override_date": "ISO 8601 string",
+        "initial_deposit_amount": "number",
+        "pricing_date": "ISO 8601 string",
+        "quote_date": "ISO 8601 string",
+        "premium_transfer_type": "string",
+        "premium_transfer_amount": "number",
+        "existing_athene_contract_number": "string"
+    },
+    "stream": {
+        "stream_type": "string",
+        "stream_percent": "number",
+        "payment_frequency": "string",
+        "default_first_payment_date": "ISO 8601 string",
+        "first_payment_date": "ISO 8601 string",
+        "number_of_years": "number",
+        "certain_period": "string",
+        "increase_type": "string",
+        "percent_increase": "number",
+        "alternate_payee_indicator": "boolean",
+        "payment_option": "string"
+    },
+    "allocations": {
+        "preset_allocations": [
+            {
+                "item_id": "string",
+                "preset_option": "string",
+                "preset_percent": "number",
+                "one_year_spx_allocation": "number",
+                "one_year_fixed_allocation": "number"
+            }
+        ],
+        "fund" : {
+            "code" : "string",
+            "name" : "string",
+            "allocation_percent" : "number"},
+
+        "total_allocation_percent": "number",
+        "fund_allocation_provided_indicator": "boolean",
+        "fund_availability_date": "ISO 8601 string",
+        "fund_availability_date_override_indicator": "boolean",
+        "incomplete_funds_information_provided": "string",
+        "qualified_annuity_contract": "boolean",
+        "non_qualified_annuity_contract": "boolean",
+        "add_athene_legacy_rider": "boolean",
+        "ascent_income_rider": "string",
+        "family_endowment_rider": "string",
+        "income_base_option": "income_base_flex_growth |income_base_sgo_max",
+        "initial_allocation_type": "string"
+
+    },
+    "annuity": {
+        "annuity_type": "string",
+        "annuity_sub_type": "string",
+        "qualified_option": "string",
+        "qualified_option_year": "number",
+        "proposed_annuitant_decedent_relationship": "string",
+        "proposed_annuitant_decedent_relationship_other_description": "string",
+        "decedent_full_name": "string",
+        "decedent_birth_date": "ISO 8601 string",
+        "decedent_death_date": "ISO 8601 string"
+    },
+    "suspense_item": [
+        {
+            "item_id": "string",
+            "financial_activity_system_key": "string",
+            "retained_commission_amount": "number",
+            "reporting_tax_year": "string",
+            "financial_activity_key": "string",
+            "payment_information": {
+                "payment_amount": "number",
+                "premium_method": "string",
+                "premium_type": "string"
+            }
+        }
+    ],
+    "transfer_exchange": [
+        {
+            "item_id": "string",
+            "surrendering_company_name": "string",
+            "surrendering_company_contract_number": "string",
+            "surrendering_company_address_line_1": "string",
+            "surrendering_company_address_line_2": "string",
+            "surrendering_company_address_city": "string",
+            "surrendering_company_address_state": "string",
+            "surrendering_company_address_postal_code": "string",
+            "surrendering_company_phone": "string",
+            "surrendering_company_fax": "string",
+            "surrendering_plan_type": "string",
+            "surrendering_product_type": "string",
+            "transfer_estimated_amount": "number",
+            "owner_full_name": "string",
+            "owner_government_id": "string",
+            "joint_owner_full_name": "string",
+            "joint_owner_government_id": "string",
+            "annuitant_full_name": "string",
+            "annuitant_government_id": "string",
+            "joint_annuitant_full_name": "string",
+            "joint_annuitant_government_id": "string",
+            "contingent_annuitant_full_name": "string",
+            "contingent_annuitant_government_id": "string",
+            "subject_backup_withholding_irs": "boolean",
+            "owner_signature": "string",
+            "owner_signature_date": "ISO 8601 string",
+            "joint_owner_signature": "string",
+            "joint_owner_signature_date": "ISO 8601 string",
+            "annuitant_signature": "string",
+            "annuitant_signature_date": "ISO 8601 string",
+            "irrevocable_beneficiary_signature": "string",
+            "irrevocable_beneficiary_signature_date": "ISO 8601 string",
+            "spouse_signature": "string",
+            "spouse_signature_date": "ISO 8601 string",
+            "receiving_plan_type": "string",
+            "receiving_product_type": "string",
+            "authorized_officer_full_name": "string",
+            "authorized_officer_title": "string",
+            "authorized_officer_signature": "string",
+            "authorized_officer_signature_date": "ISO 8601 string",
+            "non_qualified_transfer": {
+                "source_of_funds": [
+                    {
+                        "type": "mutual_fund | brokerage_account | other | certificate_deposit | money_market",
+                        "explanation": "string",
+                        "investment_description": "string",
+                        "account_number": "string",
+                        "liquidate_option": "entire | partial",
+                        "liquidate_amount": "number",
+                        "liquidate_percent": "number",
+                        "liquidate_timing": {
+                            "approach": "asap | maturity | specific",
+                            "date": "string"
+                        }
+                    }
+                ]
+            },
+            "qualified_transfer": {
+                "source_of_funds": [
+                    {
+                        "type": "traditional_ira|sep_ira|simple_ira|roth_ira|beneficial_ira|beneficial_ira_type|pension_plan|401a|401k401k_designated_roth|457b|tsa_403b|other",
+                        "explanation": "string",
+                        "liquidate_option": "entire | partial",
+                        "liquidate_amount": "number",
+                        "liquidate_percent": "number",
+                        "penalty_free": "boolean",
+                        "liquidate_timing": {
+                            "approach": "asap | maturity | specific",
+                            "date": "string"
+                        }
+                    }
+                ]
+            },
+            "acceptance_of_exchange": {
+                "exchange_type": "full | partial",
+                "deposits": [
+                    {
+                        "type": "string",
+                        "conversion_date": "ISO 8601 string",
+                        "explanation": "string",
+                        "account_number": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "included_forms": [
+        {
+            "item_id": "string",
+            "form_name": "string",
+            "form_number": "string",
+            "form_version": "string",
+            "valid_form_number_revision_date_indicator": "boolean",
+            "incomplete_form_indicator": "boolean",
+            "form_signatures": {
+                "item_id": "string",
+                "party_type": "string",
+                "party_name": "string",
+                "signature_date": "ISO 8601 string",
+                "signature_time": "string",
+                "signature_state": "string",
+                "signature_city": "string",
+                "ip_address": "string"
+            },
+            "form_in_good_order": {
+                "form_signature_in_good_order": "boolean",
+                "form_date_in_good_order": "boolean",
+                "form_content_in_good_order": "boolean"
+            },
+            "form_incompletion_reason_other": {
+                "item_id": "string",
+                "reason_description": "string"
+            },
+            "form_missing_pages": {
+                "item_id": "string",
+                "missing_page_number": "string"
+            }
+        }
+    ],
+    "product_comparison_worksheet": [
+        {
+            "application_number": "string",
+            "replacing_contract": {
+                "existing_annuitant_full_name": "string",
+                "company_name": "string",
+                "contract_number": "string",
+                "annuitant_full_name": "string",
+                "initial_premium": "number",
+                "total_annual_fees_percent": "number",
+                "issue_date": "ISO 8601 string",
+                "type": "string",
+                "replacement_type": "full|partial|penalty free",
+                "marketing_name": "string",
+                "initial_premium_source": "string",
+                "qualified_contract": "boolean",
+                "maturity_date": "ISO 8601 string",
+                "lump_sum_death_benefit": {
+                    "amount": "number",
+                    "rider": {
+                        "value": "number",
+                        "not_applicable": "boolean"
+                    }
+                },
+                "comply_medicaid_qualifications": "boolean",
+                "change_annuitant_upon_death": "boolean",
+                "initial_surrender_charge_period_years": "number",
+                "first_year_surrender_charge_percent": "number",
+                "surrender_charge_schedule_remaining_years": "number",
+                "free_withdrawal_available": "boolean",
+                "free_withdrawal_percent_rate": "number",
+                "potential_tax_penalty_description": "string",
+                "annuitized_death_benefit": {
+                    "value": "number",
+                    "years": "number",
+                    "not_applicable": "boolean",
+                    "rider": {
+                        "value": "number",
+                        "years": "number",
+                        "not_applicable": "boolean"
+                    }
+                },
+                "investment_components": [
+                    {
+                        "label": "string",
+                        "explanation": "string"
+                    }
+                ],
+                "waiver_surrender_charge_benefit": "boolean",
+                "riders_features": {
+                    "rider_type": "string",
+                    "rider_current_value": "number",
+                    "rider_annual_fee": "number",
+                    "changes_since_income_rider_purchase": "string"
+                },
+                "loss_of_benefits_enhancements_if_existing_contract_exchange": [
+                    {
+                        "label": "string",
+                        "explanation": "string"
+                    }
+                ],
+                "living_benefits": [
+                    {
+                        "label": "string",
+                        "explanation": "string"
+                    }
+                ],
+                "minimum_guaranteed_interest_rate": {
+                    "percent": "number",
+                    "not_applicable": "boolean"
+                },
+                "current_fixed_rate": {
+                    "percent": "number",
+                    "not_applicable": "boolean"
+                },
+                "limitations_on_interest_returns": [
+                    {
+                        "label": "string",
+                        "explanation": "string"
+                    }
+                ],
+                "interest_rate_cap": {
+                    "not_applicable": "boolean",
+                    "options": [
+                        {
+                            "percent": "number",
+                            "term_years": "number"
+                        }
+                    ]
+                },
+                "participation_rate": {
+                    "not_applicable": "boolean",
+                    "options": [
+                        {
+                            "percent": "number",
+                            "term_years": "number"
+                        }
+                    ]
+                },
+                "spread": {
+                    "not_applicable": "boolean",
+                    "options": [
+                        {
+                            "percent": "number",
+                            "term_years": "number"
+                        }
+                    ]
+                },
+                "indexing_strategy": {
+                    "not_applicable": "boolean",
+                    "options": [
+                        {
+                            "name": "string",
+                            "term_years": "number"
+                        }
+                    ]
+                },
+                "other_fees_description": "string",
+                "initial_bonus_percent_or_amount": "number",
+                "potential_loss_of_bonus_if_exchanged": "boolean",
+                "limits_and_exclusions_for_bonuses": [
+                    {
+                        "label": "string",
+                        "explanation": "string"
+                    }
+                ],
+                "accumulated_value": "number",
+                "surrender_value": "number",
+                "free_withdrawal_percent": "number",
+                "replace_life_insurance_explanation": "string",
+                "same_producer_solicited_new_athene_contract": "boolean",
+                "age_income_begins": "number",
+                "company_guaranteed_annual_income_at_the_age": "number",
+                "income_rider": {
+                    "forfeited": "boolean",
+                    "value": "number",
+                    "change_explanation": "string"
+                },
+                "external_annuity": {
+                    "can_be_annuitized_indicator": "boolean",
+                    "annuitized_payout_amount": "number",
+                    "payout_option": "string",
+                    "annuitization_date": "ISO 8601 string",
+                    "convert_to_spia": "boolean",
+                    "spia_payout_amount": "number",
+                    "spia_payout_option": "string",
+                    "spia_explanation": "string"
+                },
+                "internal_replacement_spia_explanation": "string",
+                "total_annual_fees_not_applicable": "boolean",
+                "existing_contract_income_rider": {
+                    "forfeited": "boolean",
+                    "value": "number",
+                    "change_explanation": "string"
+                },
+                "annuity_annual_income": "number",
+                "policy_enhancement_description": "string",
+                "investment_fixed": "boolean",
+                "investment_fixed_percent": "number",
+                "investment_fixed_years": "number",
+                "investment_variable": "boolean",
+                "investment_indexed": "boolean",
+                "12_month_rate_of_return_percent": "number",
+                "other_life_insurance_coverage_amount": "number",
+                "additional_premium": "number"
+            },
+            "proposed_contract": {
+                "initial_premium_percentage": "number",
+                "additional_premium_percentage": "number",
+                "income_rider": "string",
+                "family_endowment_rider_with_bonus": "boolean",
+                "initial_premium": "number"
+            },
+            "comments": "string",
+            "surrendered_exchanged_annuity_last_36_months": "boolean",
+            "surrendered_exchanged_annuity_last_60_months": "boolean",
+            "surrendered_exchanged_annuity_explanation": "string",
+            "surrender_date": "ISO 8601 string",
+            "surrender_charges": "number",
+            "surrender_charges_annuity_total_value": "number",
+            "surrender_charges_annuity_surrender_value": "number",
+            "surrender_charges_market_value_adjustment": "number",
+            "surrender_charges_positive_market_value_adjustment": "number",
+            "surrender_charges_negative_market_value_adjustment": "number",
+            "surrender_charges_market_value_adjustment_not_applicable": "boolean",
+            "owner_full_name": "string",
+            "owner_signature": "string",
+            "owner_signature_date": "ISO 8601 string",
+            "joint_owner_full_name": "string",
+            "joint_owner_signature": "string",
+            "joint_owner_signature_date": "ISO 8601 string",
+            "producer_full_name": "string",
+            "producer_florida_license_number": "string",
+            "producer_signature": "string",
+            "producer_signature_date": "ISO 8601 string",
+            "producer_code": "string"
+        }
+    ],
+    "suitability": {
+        "owners_name_match_indicator": "boolean",
+        "owners_birth_date_match_indicator": "boolean",
+        "owners_ssn_match_indicator": "boolean",
+        "owner_employment_status": [{
+			"type": "string"
+		}],
+        "joint_owners_name_match_indicator": "boolean",
+        "joint_owners_birth_date_match_indicator": "boolean",
+        "joint_owner_employment_status": [{
+			"type": "string"
+		}],
+        "sources_of_income": [
+            {
+                "item_id": "string",
+                "source": "string"
+            }
+        ],
+        "sources_of_income_details": {
+            "monthly_amount": "number",
+            "expected_duration": "number"
+        },
+        "federal_income_tax_bracket": "string",
+        "household_objectives_change": {
+            "increase_in_annual_living_expenses": {
+                "expected": "boolean",
+                "amount": "number",
+                "in_years": "number"
+            },
+            "decrease_in_annual_income": {
+                "expected": "boolean",
+                "amount": "number",
+                "in_years": "number"
+            },
+            "decrease_in_liquid_assets": {
+                "expected": "boolean",
+                "amount": "number",
+                "in_years": "number"
+            }
+        },
+        "financial_products_experience": "string",
+        "general_risk_tolerance": "string",
+        "aggressive_risk_tolerance_explanation": "string",
+        "how_long_to_keep_annuity": "string",
+        "premium_from_reverse_mortgage": "boolean",
+        "non_replacement_source_of_funds": "boolean",
+        "origin_checking_savings_over_250_explanation": "string",
+        "non_replacement_penalty_indicator": "boolean",
+        "non_replacement_penalties": [
+            {
+                "company_name": "string",
+                "account_number": "string",
+                "penalty_amount": "number"
+            }
+        ],
+        "replacement_source_of_funds_indicator": "boolean",
+        "household_liquid_assets": [
+            {
+                "asset_type": "string",
+                "asset_amount": "number"
+            }
+        ],
+        "household_non_liquid_assets": [
+            {
+                "asset_type": "string",
+                "asset_amount": "number"
+            }
+        ],
+        "existing_liabilities_obligations": {
+            "indicator": "boolean",
+            "obligations": [
+                {
+                    "liability_type": "string",
+                    "current_balance": "number",
+                    "monthly_payment": "number",
+                    "liability_term": "number"
+                }
+            ],
+            "total_liabilities": "number"
+        },
+        "debt": [
+            {
+                "type": "string",
+                "balance": "number",
+                "payment": "number",
+                "remaining_months_term": "number",
+                "description": "string"
+            }
+        ],
+        "total_household_liabilities_debt": "number",
+        "total_annual_household_income": "number",
+        "total_annual_household_expenses": "number",
+        "owner_existing_athene_annuities": [],
+        "spouse_partner_full_name": "string",
+        "spouse_partner_last_4_government_id": "string",
+        "reasons_for_purchasing": [
+            {
+                "reason": "string"
+            }
+        ],
+        "riders": [
+            {
+                "rider_name": "string",
+                "annual_fee": "number",
+                "rider_explanation": "string"
+            }
+        ],
+        "disadvantages_discussed_with_producer": [
+            {
+                "label": "string"
+            }
+        ],
+        "ca_apply_means_tested_government_benefits": "boolean",
+        "ca_qualify_means_tested_government_benefits": "boolean",
+        "reverse_mortgage_indicator": "boolean",
+        "producer_describe_limitations": "boolean",
+        "producer_customer_best_interest": "boolean",
+        "producer_opinion_best_interest": "boolean",
+        "suitability_factors": [
+            {
+                "factor": "age |annual_income | financial_situation_needs| financial_experience| financial_objectives| intended_use_of_policy| financial_time_horizon| existing_assets| liquidity_needs| liquid_net_worth| risk_tolerance| willingness_non_guaranteed_elements| tax_status |other",
+				"value": "supports | neural | doesnt support",
+                "explanation": "string"
+            }
+        ],
+        "product_features": [
+            {
+                "feature": "withdrawal_charge_period | min_guaranteed_contract_value | guaranteed_interest_rate | death_benefit_available| tax_deferral| issuer_financial_strength",
+				"value": "supports | neural | doesnt support"
+            }
+        ],
+        "rider_recommendation_explanation": "string",
+        "producer_recommend_explanation": "string",
+        "products_compared": [
+            {
+                "company": "string",
+                "product": "string"
+            }
+        ],
+    
+        "evaluation_results" : [
+        {
+            "item_id": "string",
+            "type": "string",
+            "description": "string"
+        }],
+        "decision_results": [
+        {
+            "item_id": "string",
+            "outcome": "string",
+            "decline_reason": "string",
+            "reconsideration" :   "boolean",
+            "reconsideration_reason" : "string"
+        }
+        ]},
+    "requirements": [
+        {
+            "item_id": "string",
+            "details": "string",
+            "status": "string",
+            "status_date": "ISO 8601 string",
+            "requested_date": "ISO 8601 string",
+            "provider_service_code": "string",
+            "category": "string",
+            "id": "string",
+            "instructions": "string",
+            "communication_method": "string",
+            "vendor": "string",
+            "nigo_external_indicator": "boolean",
+            "type": "string"
+        }
+    ]
+}
